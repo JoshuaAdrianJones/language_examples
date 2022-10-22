@@ -1,4 +1,4 @@
-all: jav py rb c cpp ts golang rack hask
+all: jav py rb c cpp ts golang rack hask ocam
 jav:
 	java App.java "from JAVA JAVA JAVA"
 py:

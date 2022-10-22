@@ -4,7 +4,7 @@
 class HelloClass {        // The class
   public:              // Access specifier
     void hello() {  // Method/function defined inside the class
-      std::cout << "Hello World from inside an c++ object!";
+      std::cout << "Hello World from inside an c++ object!\n";
     }
 };
 
