@@ -26,3 +26,6 @@ hask:
 ocam:
 	ocamlc -o app_ocaml app.ml
 	./app_ocaml
+rust:
+	rustc app.rs -o rust_app
+	./rust_app
