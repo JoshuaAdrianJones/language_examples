@@ -29,3 +29,5 @@ ocam:
 rust:
 	rustc app.rs -o rust_app
 	./rust_app
+r:
+	rscript app.r
