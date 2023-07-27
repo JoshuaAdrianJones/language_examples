@@ -28,8 +28,8 @@ Temporary Items
 
 app.cmi
 app.cmo
-app.hi
-app.o
+app_haskell.hi
+app_haskell.o
 app_haskell
 app_ocaml
 hello_c

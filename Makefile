@@ -1,4 +1,5 @@
-all: jav py rb c cpp ts golang rack hask ocam rust
+all: jav py rb c cpp ts golang rack hask ocam rust r lisp
+
 jav:
 	java App.java "from JAVA JAVA JAVA"
 py:
@@ -21,7 +22,7 @@ golang:
 rack:
 	racket app.rkt
 hask:
-	ghc -o app_haskell app.hs
+	ghc app_haskell.hs
 	./app_haskell
 ocam:
 	ocamlc -o app_ocaml app.ml
@@ -30,4 +31,6 @@ rust:
 	rustc app.rs -o rust_app
 	./rust_app
 r:
-	rscript app.r
+	rscript ./app.r
+lisp:
+	sbcl --script ./app.lisp

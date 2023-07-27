@@ -1,5 +1,5 @@
 # declare a variable <- this is a comment
-hello_string <- "Hello World"
+hello_string <- "Hello World from R"
 
 # call the variable to emit the value to sdio
 
